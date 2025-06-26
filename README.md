@@ -1,0 +1,213 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dreamy Nails - Handmade with Love</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdf6fa;
+      color: #4a3c47;
+    }
+    header {
+      background: #f2d9e6;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #d39e00;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #b27300;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #fdf6fa 0%, #f2d9e6 100%);
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      color: #d39e00;
+      font-family: 'Brush Script MT', cursive;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #6e5b63;
+      margin: 10px 0 25px;
+    }
+    .btn-primary {
+      background: #d39e00;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #d39e00;
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+      font-family: 'Brush Script MT', cursive;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(210, 158, 0, 0.1);
+      width: 270px;
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .product-card h3 {
+      color: #b27300;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #d39e00;
+      margin: 10px 0;
+    }
+    .product-card button {
+      background: #d39e00;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .about, .contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .contact form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .contact input, .contact textarea {
+      padding: 12px;
+      border: 2px solid #d39e00;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .contact button {
+      background-color: #d39e00;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+    footer {
+      background: #f2d9e6;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #8a5e64;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Dreamy Nails 💎🧿</div>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Dreamy Nails — Handmade with love</h1>
+  <p>Press-On Nails for Everyday Glam & Special Occasions</p>
+  <button class="btn-primary" onclick="window.location.href='#shop'">Shop Now</button>
+</section>
+
+<section class="section" id="shop">
+  <h2>Our Collection</h2>
+  <div class="products">
+    <div class="product-card">
+      <img src="https://i.postimg.cc/yNYfGmpm/everyday-glam.jpg" alt="Everyday Glam Nails">
+      <h3>Everyday Glam</h3>
+      <p>Simple, elegant press-ons for daily wear.</p>
+      <div class="price">$25</div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/FzFqgqvJ/special-occasion.jpg" alt="Special Occasion Nails">
+      <h3>Special Occasion</h3>
+      <p>Fancy nail art designs for your big moments.</p>
+      <div class="price">$39</div>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/VvTSJsjq/custom-design.jpg" alt="Custom Designs">
+      <h3>Custom Design</h3>
+      <p>Unique nails made just for you. DM for price.</p>
+      <button onclick="window.location.href='#contact'">Contact Us</button>
+    </div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <h2>About Dreamy Nails</h2>
+  <p>Dreamy Nails is all about elegance and ease. We handcraft beautiful press-on nails with love and care, so you can feel confident, stylish, and ready to shine!</p>
+</section>
+
+<section class="section contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>💌 Instagram: <a href="https://instagram.com/dreamy_nails78" target="_blank">@dreamy_nails78</a><br>
+     📧 Email: <a href="mailto:dreamynails78@gmail.com">dreamynails78@gmail.com</a></p>
+
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="_replyto" placeholder="Your Email" required>
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Dreamy Nails — Handmade with love 💅
+</footer>
+
+</body>
+</html>
